@@ -1,0 +1,138 @@
+ 
+body{
+    background-color: #1a1947;
+    color: #ffffff;
+    font-family: 'Tomorrow', sans-serif;
+} 
+
+#greeting{
+  letter-spacing: .1em;
+  text-align: center;
+}
+
+
+h1{
+  font-size: 2em;
+  text-align: center;
+  margin: auto;
+  padding: 1em;
+  border-bottom: 2px solid #d3d3d3;
+}
+
+p{
+  padding:1em;
+}
+
+.large{
+    width:100%;
+    height:auto;
+}
+
+
+#luke-skywalker-character, #princess-leia-character, #han-solo-character, #darth-vadar-character{
+  width:12em;
+  height:14em; 
+}
+
+h6{
+  color:#7f7e80;
+}
+
+/* edit below */
+
+
+.character-image p {
+  text-align: center;
+}
+
+.character-name{
+  padding:0em;
+  text-transform: uppercase;
+  color:black;
+  font-weight: 1000;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.health{
+  padding:0em;
+  color:black;
+  font-weight: 1000;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#chosen-character {
+  height: 300px;
+  text-align: center;
+  color: black;
+}
+
+#characters-available{
+  margin-top: 20px;
+  color: black;
+  
+}
+
+#chosen-character h3 {
+  color: black;
+  background-color: #ffffff;  
+  margin:.5em;
+  border-radius: .2em .2em;
+}
+
+
+#defender-section h3 {
+  color: black;
+  background-color: #ffffff;
+  margin:.5em;
+  border-radius: .2em .2em;
+}
+
+
+#enemies-available h3 {
+  color: black;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: .2em .2em;
+}
+
+.enemy-character {
+  color: black;
+}
+
+#fight-section h3{
+  color: black;
+  background-color: #ffffff;
+}
+
+#defender-section {
+  height: 300px;
+  color: black;
+  text-align: center;
+  
+}
+
+.defender-character p {
+  color: black;
+  background-color: #ffffff;
+}
+
+#game-message {
+  font-size: 1.5em;
+  font-weight: bold;
+  color:  black;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: .2em .2em;
+}
+
+
+#attack{
+  display:block;
+  margin:auto;
+}
+
+#restart{
+  border-radius: .2em .2em;
+}
