@@ -20,28 +20,28 @@ gameOver = false;
 
 var princessLeia = {
   name: "Princess Leia",
-  health: 120,
-  baseAttack: 8,
-  attack: 8
-};
-
-var lukeSkywalker = {
-  name: "Luke Skywalker",
-  health: 100,
-  baseAttack: 5,
-  attack: 5
-};
-
-var hanSolo = {
-  name: "Han Solo",
-  health: 150,
+  health: 200,
   baseAttack: 20,
   attack: 20
 };
 
+var lukeSkywalker = {
+  name: "Luke Skywalker",
+  health: 200,
+  baseAttack: 15,
+  attack: 15
+};
+
+var hanSolo = {
+  name: "Han Solo",
+  health: 200,
+  baseAttack: 10,
+  attack: 10
+};
+
 var darthVadar = {
   name: "Darth Vadar",
-  health: 180,
+  health: 200,
   baseAttack: 25,
   attack: 25
 };
