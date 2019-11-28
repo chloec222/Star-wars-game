@@ -54,29 +54,29 @@ function resetGame() {
 var princessLeia = {
   name: "Princess Leia",
   health: 200,
-  baseAttack: 20,
-  attack: 20
+  baseAttack: 18,
+  attack: 18
 };
 
 var lukeSkywalker = {
   name: "Luke Skywalker",
   health: 200,
-  baseAttack: 15,
-  attack: 15
+  baseAttack: 16,
+  attack: 16
 };
 
 var hanSolo = {
   name: "Han Solo",
   health: 200,
-  baseAttack: 10,
-  attack: 10
+  baseAttack: 15,
+  attack: 15
 };
 
 var darthVadar = {
   name: "Darth Vadar",
   health: 200,
-  baseAttack: 25,
-  attack: 25
+  baseAttack: 17,
+  attack: 17
 };
 
 
