@@ -61,22 +61,22 @@ var princessLeia = {
 var lukeSkywalker = {
   name: "Luke Skywalker",
   health: 200,
-  baseAttack: 16,
-  attack: 16
+  baseAttack: 13,
+  attack: 13
 };
 
 var hanSolo = {
   name: "Han Solo",
   health: 200,
-  baseAttack: 15,
-  attack: 15
+  baseAttack: 10,
+  attack: 10
 };
 
 var darthVadar = {
   name: "Darth Vadar",
   health: 200,
-  baseAttack: 17,
-  attack: 17
+  baseAttack: 16,
+  attack: 16
 };
 
 
