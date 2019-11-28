@@ -1,50 +1,4 @@
-// Has the user selected their character
-var characterSelected = false;
 
-// Has the user selected the defender
-var defenderSelected = false;
-
-// Variable to store the user's chosen character
-var character = {};
-
-// Variable to store the chosen enemy
-var defender = {};
-
-// Number of enemies defeated
-var enemiesDefeated = 0;
-
-// Boolean to indicate whether or not the game is over
-gameOver = false;
-
-// ----- Character Objects ----- //
-
-var princessLeia = {
-  name: "Princess Leia",
-  health: 200,
-  baseAttack: 20,
-  attack: 20
-};
-
-var lukeSkywalker = {
-  name: "Luke Skywalker",
-  health: 200,
-  baseAttack: 15,
-  attack: 15
-};
-
-var hanSolo = {
-  name: "Han Solo",
-  health: 200,
-  baseAttack: 10,
-  attack: 10
-};
-
-var darthVadar = {
-  name: "Darth Vadar",
-  health: 200,
-  baseAttack: 25,
-  attack: 25
-};
 
 // ----- Helper Functions ----- //
 
@@ -93,6 +47,39 @@ function resetGame() {
   character = {};
   defender = {};
 }
+
+
+// ----- Character Objects ----- //
+
+var princessLeia = {
+  name: "Princess Leia",
+  health: 200,
+  baseAttack: 20,
+  attack: 20
+};
+
+var lukeSkywalker = {
+  name: "Luke Skywalker",
+  health: 200,
+  baseAttack: 15,
+  attack: 15
+};
+
+var hanSolo = {
+  name: "Han Solo",
+  health: 200,
+  baseAttack: 10,
+  attack: 10
+};
+
+var darthVadar = {
+  name: "Darth Vadar",
+  health: 200,
+  baseAttack: 25,
+  attack: 25
+};
+
+
 
 // ----- Main Routine ----- //
 
