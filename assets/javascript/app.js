@@ -21,29 +21,29 @@ gameOver = false;
 var princessLeia = {
   name: "Princess Leia",
   health: 200,
-  baseAttack: 15,
-  attack: 15
+  baseAttack: 20,
+  attack: 20
 };
 
 var lukeSkywalker = {
   name: "Luke Skywalker",
   health: 200,
-  baseAttack: 14,
-  attack: 14
+  baseAttack: 15,
+  attack: 15
 };
 
 var hanSolo = {
   name: "Han Solo",
   health: 200,
-  baseAttack: 13,
-  attack: 13
+  baseAttack: 10,
+  attack: 10
 };
 
 var darthVadar = {
   name: "Darth Vadar",
   health: 200,
-  baseAttack: 16,
-  attack: 16
+  baseAttack: 25,
+  attack: 25
 };
 
 // ----- Helper Functions ----- //
