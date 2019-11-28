@@ -1,3 +1,32 @@
+// ----- Character Objects ----- //
+
+var princessLeia = {
+  name: "Princess Leia",
+  health: 200,
+  baseAttack: 18,
+  attack: 18
+};
+
+var lukeSkywalker = {
+  name: "Luke Skywalker",
+  health: 200,
+  baseAttack: 13,
+  attack: 13
+};
+
+var hanSolo = {
+  name: "Han Solo",
+  health: 200,
+  baseAttack: 10,
+  attack: 10
+};
+
+var darthVadar = {
+  name: "Darth Vadar",
+  health: 200,
+  baseAttack: 16,
+  attack: 16
+};
 
 
 // ----- Helper Functions ----- //
@@ -49,35 +78,6 @@ function resetGame() {
 }
 
 
-// ----- Character Objects ----- //
-
-var princessLeia = {
-  name: "Princess Leia",
-  health: 200,
-  baseAttack: 18,
-  attack: 18
-};
-
-var lukeSkywalker = {
-  name: "Luke Skywalker",
-  health: 200,
-  baseAttack: 13,
-  attack: 13
-};
-
-var hanSolo = {
-  name: "Han Solo",
-  health: 200,
-  baseAttack: 10,
-  attack: 10
-};
-
-var darthVadar = {
-  name: "Darth Vadar",
-  health: 200,
-  baseAttack: 16,
-  attack: 16
-};
 
 
 
